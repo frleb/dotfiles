@@ -18,6 +18,10 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle 'Shougo/neocomplete'
 
+
+NeoBundle 'Tagbar'
+
+
 " colorscheme
 NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'nanotech/jellybeans.vim'
