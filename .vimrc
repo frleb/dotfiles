@@ -18,6 +18,10 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle 'Shougo/neocomplete'
 
+" colorscheme
+NeoBundle 'altercation/vim-colors-solarized'
+NeoBundle 'nanotech/jellybeans.vim'
+NeoBundle 'tomasr/molokai'
 
 " My Bundles here:
 " Refer to |:NeoBundle-examples|.
