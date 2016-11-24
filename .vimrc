@@ -15,6 +15,10 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " Required:
 NeoBundleFetch 'Shougo/neobundle.vim'
 
+
+NeoBundle 'Shougo/neocomplete'
+
+
 " My Bundles here:
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
@@ -27,3 +31,11 @@ filetype plugin indent on
 " If there are uninstalled bundles found on startup,
 " this will conveniently prompt you to install them.
 NeoBundleCheck
+
+
+" Load ~/.vim/settings/*.vim
+let VimSettings = '~/.vim/settings'
+for fpath in split(globpath(VimSettings, '*.vim'), '\n')
+  exe 'source' fpath
+endfor
+
