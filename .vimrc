@@ -28,6 +28,9 @@ NeoBundle 'Shougo/context_filetype.vim'
 
 NeoBundle 'Tagbar'
 
+" fugitive.vim: a Git wrapper so awesome, it should be illegal
+NeoBundle 'tpope/vim-fugitive'
+
 " Syntax checking hacks for vim
 NeoBundle 'scrooloose/syntastic'
 
