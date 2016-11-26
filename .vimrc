@@ -21,6 +21,9 @@ NeoBundle 'Shougo/neocomplete'
 
 NeoBundle 'Tagbar'
 
+" Syntax checking hacks for vim
+NeoBundle 'scrooloose/syntastic'
+
 
 " colorscheme
 NeoBundle 'altercation/vim-colors-solarized'
