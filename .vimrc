@@ -15,9 +15,10 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " Required:
 NeoBundleFetch 'Shougo/neobundle.vim'
 
-
 NeoBundle 'Shougo/neocomplete'
-
+NeoBundle 'Shougo/neosnippet'
+NeoBundle 'Shougo/neosnippet-snippets'
+NeoBundle 'Shougo/context_filetype.vim'
 
 NeoBundle 'Tagbar'
 
