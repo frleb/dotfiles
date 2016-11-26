@@ -15,6 +15,12 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " Required:
 NeoBundleFetch 'Shougo/neobundle.vim'
 
+" lean & mean status/tabline for vim that's light as air
+NeoBundle 'vim-airline/vim-airline'
+" A collection of themes for vim-airline
+NeoBundle 'vim-airline/vim-airline-themes'
+"let g:airline#extensions#tabline#enabled = 1
+
 NeoBundle 'Shougo/neocomplete'
 NeoBundle 'Shougo/neosnippet'
 NeoBundle 'Shougo/neosnippet-snippets'
