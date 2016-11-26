@@ -57,3 +57,6 @@ for fpath in split(globpath(VimSettings, '*.vim'), '\n')
   exe 'source' fpath
 endfor
 
+
+" Show line numbers
+set number
