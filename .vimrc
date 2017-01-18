@@ -40,6 +40,10 @@ NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'tomasr/molokai'
 
+
+" Vim files for editing Salt files
+NeoBundle 'saltstack/salt-vim'
+
 " My Bundles here:
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
