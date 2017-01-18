@@ -44,6 +44,10 @@ NeoBundle 'tomasr/molokai'
 " Vim files for editing Salt files
 NeoBundle 'saltstack/salt-vim'
 
+NeoBundleLazy 'Glench/Vim-Jinja2-Syntax', {
+\   'filetypes': ['jinja2', 'j2', 'jinja']
+\ }
+
 " My Bundles here:
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
