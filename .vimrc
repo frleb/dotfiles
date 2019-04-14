@@ -41,6 +41,9 @@ NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'tomasr/molokai'
 
 
+NeoBundle 'editorconfig/editorconfig-vim'
+
+
 " Vim files for editing Salt files
 NeoBundle 'saltstack/salt-vim'
 
