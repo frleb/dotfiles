@@ -1,3 +1,18 @@
 [user]
-	email = flebel@opval.com
-	name = Frédéric Lebel
+email = flebel@opval.com
+name = Frédéric Lebel
+
+[pull]
+rebase = true
+
+# GitFlow related sections
+[gitflow "branch"]
+master = master
+develop = work
+
+[gitflow "prefix"]
+feature = feature/
+release = release/
+hotfix = hotfix/
+support = support/
+versiontag =
