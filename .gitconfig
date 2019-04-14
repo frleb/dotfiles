@@ -16,3 +16,11 @@ release = release/
 hotfix = hotfix/
 support = support/
 versiontag =
+
+[url "git@github.com:"]
+pushInsteadOf = "https://github.com/"
+pushInsteadOf = "github:"
+pushInsteadOf = "git://github.com/"
+
+[credential "https://github.com"]
+username = frleb
