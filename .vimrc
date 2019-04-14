@@ -44,6 +44,9 @@ NeoBundle 'tomasr/molokai'
 NeoBundle 'editorconfig/editorconfig-vim'
 
 
+NeoBundle 'pearofducks/ansible-vim'
+
+
 " Vim files for editing Salt files
 NeoBundle 'saltstack/salt-vim'
 
@@ -74,3 +77,5 @@ endfor
 
 " Show line numbers
 set number
+
+syntax on
