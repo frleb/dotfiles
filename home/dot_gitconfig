@@ -1,0 +1,29 @@
+[user]
+email = flebel@opval.com
+name = Frédéric Lebel
+
+[core]
+editor = vim
+
+[pull]
+rebase = true
+
+# GitFlow related sections
+[gitflow "branch"]
+master = master
+develop = work
+
+[gitflow "prefix"]
+feature = feature/
+release = release/
+hotfix = hotfix/
+support = support/
+versiontag =
+
+[url "git@github.com:"]
+pushInsteadOf = "https://github.com/"
+pushInsteadOf = "github:"
+pushInsteadOf = "git://github.com/"
+
+[credential "https://github.com"]
+username = frleb
