@@ -1,3 +1,10 @@
+{{ if eq .chezmoi.os "darwin" -}}
+#!/bin/sh
+
+# Brewfile hash: {{ include "Brewfile" | sha256sum }}
+brew bundle --no-lock --file {{ joinPath .chezmoi.sourceDir "Brewfile" | quote }}
+
+{{ end -}}
 {{ if eq .chezmoi.os "linux" -}}
 #!/bin/sh
 sudo apt-get update

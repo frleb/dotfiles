@@ -1,0 +1,8 @@
+{{ if eq .chezmoi.os "darwin" }}
+.aerospace.toml
+{{ end }}
+{{- if ne .chezmoi.os "linux" }}
+.bashrc
+.profile
+.screenrc
+{{ end }}
