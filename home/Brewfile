@@ -9,6 +9,7 @@ brew "gh"
 brew "ipcalc"
 brew "jq"
 brew "nmap"
+brew "pre-commit"
 brew "pwgen"
 brew "tmux"
 
