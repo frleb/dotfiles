@@ -9,7 +9,7 @@ brew bundle --no-lock --file {{ joinPath .chezmoi.sourceDir "Brewfile" | quote }
 #!/bin/sh
 sudo apt-get update
 
-sudo apt-get install git 
+sudo apt-get install git
 sudo apt-get install screen
 sudo apt-get install zsh
 {{ end -}}
