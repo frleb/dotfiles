@@ -15,11 +15,13 @@ jobs:
 
       - name: Install ChezMoi
         run: |
+          which brew
           brew install chezmoi
           which chezmoi
 
       - name: ChezMoi apply
         run: |
+          which brew
           which chezmoi
           chezmoi apply
 
