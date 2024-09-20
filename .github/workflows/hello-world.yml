@@ -15,7 +15,7 @@ jobs:
 
       - name: Install ChezMoi
         run: |
-          CI_USAGE=${{ matrix.usage }} sh -c "$(curl -fsLS get.chezmoi.io)"
+          brew install chezmoi
 
       - name: ChezMoi apply
         run: |
