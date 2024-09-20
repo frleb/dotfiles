@@ -9,3 +9,18 @@ jobs:
     steps:
       - name: my-step
         run: echo "hello world!"
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install ChezMoi
+        run: |
+          CI_USAGE=${{ matrix.usage }} sh -c "$(curl -fsLS get.chezmoi.io)"
+
+      - name: ChezMoi apply
+        run: |
+          chezmoi apply
+
+      - name: Tests
+        run: |
+          bats tests/*

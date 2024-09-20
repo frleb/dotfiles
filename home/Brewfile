@@ -1,5 +1,6 @@
 brew "ack"
 brew "awscli"
+brew "bats-core"
 brew "bitwarden-cli"
 brew "chezmoi"
 brew "colima"
