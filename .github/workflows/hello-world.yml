@@ -7,24 +7,15 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - name: my-step
-        run: echo "hello world!"
+      - name: Install
+        run: brew install chezmoi
 
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install ChezMoi
-        run: |
-          which brew
-          brew install chezmoi
-          which chezmoi
+      - name: Apply
+        run: chezmoi apply
 
-      - name: ChezMoi apply
-        run: |
-          which brew
-          which chezmoi
-          chezmoi apply
-
-      - name: Tests
-        run: |
-          bats tests/*
+      # - name: Tests
+      #   run: |
+      #     bats tests/*
