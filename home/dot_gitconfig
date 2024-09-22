@@ -1,14 +1,17 @@
 [user]
 email = flebel@opval.com
 name = Frédéric Lebel
+signingkey = 1DC57FE723A81635B4DC1F68F2E3BDFD356FE1F8
+
+[commit]
+gpgsign = true
 
 [core]
 editor = vim
 
-[pull]
-rebase = true
+[credential "https://github.com"]
+username = frleb
 
-# GitFlow related sections
 [gitflow "branch"]
 master = master
 develop = work
@@ -20,10 +23,19 @@ hotfix = hotfix/
 support = support/
 versiontag =
 
+[init]
+defaultBranch = main
+
+[pull]
+rebase = true
+
+[push]
+default = simple
+
 [url "git@github.com:"]
 pushInsteadOf = "https://github.com/"
 pushInsteadOf = "github:"
 pushInsteadOf = "git://github.com/"
 
-[credential "https://github.com"]
-username = frleb
+[tag]
+gpgSign = true
