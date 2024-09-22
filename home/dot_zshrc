@@ -83,3 +83,8 @@ source $ZSH/oh-my-zsh.sh
 bw-unlock() {
   export BW_SESSION=$(bw unlock | grep 'export BW_SESSION' | sed 's/$ export BW_SESSION="//' | sed 's/"//')
 }
+
+# Enable SSH access using a GPG key for authentication
+export GPG_TTY="$(tty)"
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+gpgconf --launch gpg-agent
